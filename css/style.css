@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Pathway+Gothic+One|Source+Sans+Pro');
 
 body {
-	margin: 0 5%;
+	padding: 0 5%;
 	font-family: 'Source Sans Pro', sans-serif;
 	background-image: url("../assets/bkgdHome.jpg");
 	background-size: cover;
@@ -110,9 +110,9 @@ footer {
 @media (max-width: 768px) {
 	body {
 		background: -webkit-linear-gradient("rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)");
-		background: -o-linear-gradient(rgba(255, 255, 255, 0, rgba(255, 255, 255, 0));
-		background: -moz-linear-gradient(rgba(255, 255, 255, 0, rgba(255, 255, 255, 0));
-		background: linear-gradient(rgba(255, 255, 255, 0, rgba(255, 255, 255, 0));
+		background: -o-linear-gradient("rgba(255, 255, 255, 0, rgba(255, 255, 255, 0)");
+		background: -moz-linear-gradient("rgba(255, 255, 255, 0, rgba(255, 255, 255, 0)");
+		background: linear-gradient("rgba(255, 255, 255, 0, rgba(255, 255, 255, 0)");
 	}
 	.asideLeft {
 		width: 95%;
