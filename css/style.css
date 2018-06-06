@@ -68,11 +68,11 @@ a {
 	text-decoration: none;
 }
 
-.row1 {
+.bodyX {
 	margin: 5% 0;
 }
 
-.row1::after {
+.bodyX::after {
 	content: "";
 	display: block;
 	clear: both;
