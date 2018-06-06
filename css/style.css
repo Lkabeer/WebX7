@@ -39,7 +39,7 @@ nav {
 	padding-top: 50px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: 0% 20px;
+	background-position: 0 20px;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
@@ -109,10 +109,13 @@ footer {
 
 @media (max-width: 768px) {
 	body {
-		background: -webkit-linear-gradient("rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)");
-		background: -o-linear-gradient("rgba(255, 255, 255, 0, rgba(255, 255, 255, 0)");
-		background: -moz-linear-gradient("rgba(255, 255, 255, 0, rgba(255, 255, 255, 0)");
-		background: linear-gradient("rgba(255, 255, 255, 0, rgba(255, 255, 255, 0)");
+		background-image: url("../assets/bkgdAbout.jpg");
+	}
+	body {
+		background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+		background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+		background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 	}
 	.asideLeft {
 		width: 95%;
@@ -126,6 +129,5 @@ footer {
 	
 	.sectionRight {
 		width: 90%;
-		
 	}
 }
